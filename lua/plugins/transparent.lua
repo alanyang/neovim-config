@@ -37,7 +37,7 @@ return {
       -- function: code to be executed after highlight groups are cleared
       -- Also the user event "TransparentClear" will be triggered
       on_clear = function() end,
-      vim.g.transparent_enabled,
+      -- vim.g.transparent_enabled,
     }
   end,
 }
