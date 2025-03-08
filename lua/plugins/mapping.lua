@@ -12,6 +12,11 @@ return {
           ["<Leader>kc"] = { "<cmd>RustLsp openCargo<cr>", desc = "Rust open cargo file" },
           ["<Leader>ki"] = { "<cmd>RustLsp hover actions<cr>", desc = "Rust hover actions" },
           ["<Leader>k"] = { desc = " Language tools" },
+
+          ["<Leader>j"] = { desc = "󰧑 CodeCompanion AI" },
+          ["<Leader>jj"] = { "<cmd>CodeCompanion<cr>", desc = "CodeCompanion inline assistant" },
+          ["<Leader>ja"] = { "<cmd>CodeCompanionActions<cr>", desc = "CodeCompanion actions" },
+          ["<Leader>jc"] = { "<cmd>CodeCompanionChat<cr>", desc = "CodeCompanion chat" },
         },
       },
     },
