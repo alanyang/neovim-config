@@ -11,7 +11,11 @@ return {
           ["<Leader>km"] = { "<cmd>RustLsp relatedDiagnostics<cr>", desc = "Rust diagnostics" },
           ["<Leader>kc"] = { "<cmd>RustLsp openCargo<cr>", desc = "Rust open cargo file" },
           ["<Leader>ki"] = { "<cmd>RustLsp hover actions<cr>", desc = "Rust hover actions" },
-          ["<Leader>k"] = { desc = " Language tools" },
+          -- ["<Leader>kh"] = { "<cmd>Lspsage hover_doc<cr>", desc = "Lsp hover info" },
+          -- ["<Leader>kC"] = { "<cmd>Lspsage outgoing_calls<cr>", desc = "Lsp callhierarchy" },
+          -- ["<Leader>kD"] = { "<cmd>Lspsage diagnostic_jump_prev<cr>", desc = "Lsp diagnostic" },
+          -- ["<Leader>kd"] = { "<cmd>Lspsage peek_definition<cr>", desc = "Lsp peek definition" },
+          ["<Leader>k"] = { desc = " Rust&Typescript tools" },
 
           ["<Leader>j"] = { desc = "󰧑 CodeCompanion AI" },
           ["<Leader>jj"] = { "<cmd>CodeCompanion<cr>", desc = "CodeCompanion inline assistant" },
