@@ -6,6 +6,9 @@
 ---@type LazySpec
 return {
   "AstroNvim/astroui",
+  require("notify").setup {
+    background_colour = "#282A36",
+  },
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
