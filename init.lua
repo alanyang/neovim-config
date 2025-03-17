@@ -20,3 +20,4 @@ vim.opt.clipboard = "unnamedplus"
 require "lazy_setup"
 require "polish"
 vim.opt.wrap = true
+vim.opt.mouse = ""

@@ -13,10 +13,10 @@ return {
           ["<Leader>ki"] = { "<cmd>RustLsp hover actions<cr>", desc = "Rust hover actions" },
           ["<Leader>k"] = { desc = " Rust&Typescript tools" },
 
-          ["<Leader>j"] = { desc = "󰧑 CodeCompanion AI" },
-          ["<Leader>jj"] = { "<cmd>CodeCompanion<cr>", desc = "CodeCompanion inline assistant" },
-          ["<Leader>ja"] = { "<cmd>CodeCompanionActions<cr>", desc = "CodeCompanion actions" },
-          ["<Leader>jc"] = { "<cmd>CodeCompanionChat<cr>", desc = "CodeCompanion chat" },
+          ["<Leader>j"] = { desc = "󰧑 Codecompanion AI" },
+          ["<Leader>jj"] = { "<cmd>CodeCompanion<cr>", desc = "Codecompanion inline assistant" },
+          ["<Leader>ja"] = { "<cmd>CodeCompanionActions<cr>", desc = "Codecompanion actions" },
+          ["<Leader>jc"] = { "<cmd>CodeCompanionChat<cr>", desc = "Codecompanion chat" },
 
           ["<Leader>s"] = { desc = " Search" },
           ["<Leader>ss"] = { function() require("flash").jump() end, desc = "Flash" },
