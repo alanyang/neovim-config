@@ -10,5 +10,8 @@ return {
       " ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║ ",
       " ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ",
     }
+    opts.section.buttons.val = require("astrocore").extend_tbl(opts.section.buttons.val, {
+      opts.button("c", "  Configuration", ":cd `=fnamemodify($MYVIMRC, ':h')` | :e init.lua<CR>"),
+    })
   end,
 }

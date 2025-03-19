@@ -26,11 +26,21 @@ return {
             },
           })
         end,
+        deepseekchat = function()
+          return require("codecompanion.adapters").extend("deepseek", {
+            schema = {
+              model = {
+                default = "deepseek-chat",
+              },
+            },
+          })
+        end,
+
         ollama = function()
           return require("codecompanion.adapters").extend("ollama", {
             schema = {
               model = {
-                default = "gemma3:12b",
+                default = "gemma3:latest",
               },
             },
             env = {

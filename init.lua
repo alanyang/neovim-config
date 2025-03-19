@@ -19,5 +19,11 @@ vim.opt.clipboard = "unnamedplus"
 
 require "lazy_setup"
 require "polish"
+
 vim.opt.wrap = true
 vim.opt.mouse = ""
+vim.api.nvim_set_hl(0, "FlashLabel", {
+  fg = "#FF5555",
+  bg = "#444444",
+  bold = true,
+})
