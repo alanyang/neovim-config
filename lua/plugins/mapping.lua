@@ -23,6 +23,9 @@ return {
           ["<Leader>sd"] = { function() require("flash").treesitter_search() end, desc = "Flash treesitter search" },
           ["<Leader>sw"] = { "/", desc = "Search current document" },
           ["<Leader>sS"] = { "<cmd>lua require('spectre').toggle()<CR>", desc = "Search and replace global (rg)" },
+
+          -- ["<Leader>ui"] = { function() require("dbee").toggle() end, desc = " Toggle database ui" },
+          ["<Leader>fh"] = { "<cmd>Telescope frecency<cr>", desc = "Find history files" },
         },
       },
     },

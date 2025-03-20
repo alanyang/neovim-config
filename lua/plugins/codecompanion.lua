@@ -29,7 +29,7 @@ return {
             position = "right", -- left|right|top|bottom (nil will default depending on vim.opt.plitright|vim.opt.splitbelow)
             border = "single",
             height = 0.8,
-            width = 0.5,
+            width = 0.44,
             relative = "editor",
             full_height = true, -- when set to false, vsplit will be used to open the chat buffer vs. botright/topleft vsplit
             opts = {
