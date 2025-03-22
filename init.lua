@@ -27,3 +27,6 @@ vim.api.nvim_set_hl(0, "FlashLabel", {
   bg = "#444444",
   bold = true,
 })
+
+vim.lsp.inlay_hint.enable(true)
+vim.opt.laststatus = 3

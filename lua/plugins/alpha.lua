@@ -11,7 +11,7 @@ return {
       " ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ",
     }
     opts.section.buttons.val = require("astrocore").extend_tbl(opts.section.buttons.val, {
-      opts.button("cc", "  Open configure folder", ":cd `=fnamemodify($MYVIMRC, ':h')` | :e init.lua<CR>"),
+      opts.button("cc", " Settings", ":cd `=fnamemodify($MYVIMRC, ':h')` | :e init.lua<CR>"),
     })
   end,
 }

@@ -103,7 +103,7 @@ return {
       },
       strategies = {
         chat = {
-          adapter = "deepseek",
+          adapter = "openai",
         },
         inline = {
           adapter = "openai",
