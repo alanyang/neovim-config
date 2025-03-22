@@ -10,6 +10,30 @@ return {
     -- extend our configuration table to have our new prolog server
     opts.config = require("astrocore").extend_tbl(opts.config or {}, {
       -- this must be a function to get access to the `lspconfig` module
+      gopls = {
+        settings = {
+          gopls = {
+            hints = {
+              assignVariableTypes = true,
+              compositeLiteralFields = true,
+              compositeLiteralTypes = true,
+              constantValues = true,
+              functionTypeParameters = true,
+              parameterNames = true,
+              rangeVariableTypes = true,
+            },
+          },
+        },
+      },
+      lua_ls = {
+        settings = {
+          Lua = {
+            hint = {
+              enable = true,
+            },
+          },
+        },
+      },
       prisma_lsp = {
         -- the command for starting the server
         cmd = {
