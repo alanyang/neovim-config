@@ -14,13 +14,13 @@ return {
         settings = {
           gopls = {
             hints = {
-              assignVariableTypes = true,
+              assignVariableTypes = false,
               compositeLiteralFields = true,
               compositeLiteralTypes = true,
-              constantValues = true,
-              functionTypeParameters = true,
-              parameterNames = true,
-              rangeVariableTypes = true,
+              constantValues = false,
+              functionTypeParameters = false,
+              parameterNames = false,
+              rangeVariableTypes = false,
             },
           },
         },
@@ -29,7 +29,7 @@ return {
         settings = {
           Lua = {
             hint = {
-              enable = true,
+              enable = false,
             },
           },
         },

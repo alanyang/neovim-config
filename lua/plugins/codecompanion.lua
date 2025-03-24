@@ -7,6 +7,9 @@ return {
   },
   init = function()
     require("codecompanion").setup {
+      opts = {
+        language = "Chinese",
+      },
       display = {
         chat = {
           -- Change the default icons
@@ -58,7 +61,7 @@ return {
           return require("codecompanion.adapters").extend("openai", {
             schema = {
               model = {
-                default = "gpt-4o-mini",
+                default = "o3-mini",
               },
             },
           })
@@ -81,7 +84,6 @@ return {
             },
           })
         end,
-
         ollama = function()
           return require("codecompanion.adapters").extend("ollama", {
             schema = {
