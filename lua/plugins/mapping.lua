@@ -14,9 +14,9 @@ return {
           ["<Leader>k"] = { desc = " Rust&Typescript tools" },
 
           ["<Leader>a"] = { desc = "󰧑 Codecompanion AI" },
-          ["<Leader>ai"] = { "<cmd>CodeCompanion<cr>", desc = "Codecompanion inline assistant" },
-          ["<Leader>ac"] = { "<cmd>CodeCompanionActions<cr>", desc = "Codecompanion actions" },
-          ["<Leader>aa"] = { "<cmd>CodeCompanionChat<cr>", desc = "Codecompanion chat" },
+          ["<Leader>aa"] = { "<cmd>CodeCompanion<cr>", desc = "Codecompanion inline assistant" },
+          ["<Leader>as"] = { "<cmd>CodeCompanionActions<cr>", desc = "Codecompanion actions" },
+          ["<Leader>ac"] = { "<cmd>CodeCompanionChat<cr>", desc = "Codecompanion chat" },
 
           -- ["<Leader><Leader>"] = { "<cmd>Telescope find_files<cr>" },
 
