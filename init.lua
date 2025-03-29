@@ -28,5 +28,5 @@ vim.api.nvim_set_hl(0, "FlashLabel", {
   bold = true,
 })
 
-vim.lsp.inlay_hint.enable(true)
 vim.opt.laststatus = 3
+-- vim.opt.winborder = "none"
