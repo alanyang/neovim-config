@@ -24,10 +24,11 @@ return {
           -- ["<Leader>ss"] = { function() require("flash").jump() end, desc = "Flash" },
           -- ["<Leader>sd"] = { function() require("flash").treesitter_search() end, desc = "Flash treesitter search" },
           -- ["<Leader>sw"] = { "/", desc = "Search current document" },
-          -- ["<Leader>sS"] = { "<cmd>lua require('spectre').toggle()<CR>", desc = "Search and replace global (rg)" },
+          ["<Leader>fR"] = { "<cmd>lua require('spectre').toggle()<CR>", desc = "Find and replace global (rg)" },
           --
           -- ["<Leader>ui"] = { function() require("dbee").toggle() end, desc = " Toggle database ui" },
           ["<Leader>fh"] = { "<cmd>Telescope frecency<cr>", desc = "Find history files" },
+          -- ["<Leader>ff"] = { function() require("fzf-lua").files() end, desc = "Find files" },
         },
       },
     },

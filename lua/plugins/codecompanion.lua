@@ -70,7 +70,7 @@ return {
           return require("codecompanion.adapters").extend("deepseek", {
             schema = {
               model = {
-                default = "deepseek-chat",
+                default = "deepseek-resonner",
               },
             },
           })
