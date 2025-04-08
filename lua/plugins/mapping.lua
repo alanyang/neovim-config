@@ -11,14 +11,14 @@ return {
           ["<Leader>km"] = { "<cmd>RustLsp relatedDiagnostics<cr>", desc = "Rust diagnostics" },
           ["<Leader>kc"] = { "<cmd>RustLsp openCargo<cr>", desc = "Rust open cargo file" },
           ["<Leader>ki"] = { "<cmd>RustLsp hover actions<cr>", desc = "Rust hover actions" },
-          ["<Leader>k"] = { desc = " Rust&Typescript tools" },
+          ["<Leader>k"] = { desc = " Rust/Typescript tools" },
 
           ["<Leader>a"] = { desc = "󰧑 Codecompanion AI" },
           ["<Leader>aa"] = { "<cmd>CodeCompanion<cr>", desc = "Codecompanion inline assistant" },
           ["<Leader>as"] = { "<cmd>CodeCompanionActions<cr>", desc = "Codecompanion actions" },
           ["<Leader>ac"] = { "<cmd>CodeCompanionChat<cr>", desc = "Codecompanion chat" },
 
-          -- ["<Leader><Leader>"] = { "<cmd>Telescope find_files<cr>" },
+          ["<Leader><Leader>"] = { "<cmd>Telescope find_files<cr>", desc = "Explore files" },
 
           -- ["<Leader>s"] = { desc = " Search" },
           -- ["<Leader>ss"] = { function() require("flash").jump() end, desc = "Flash" },
