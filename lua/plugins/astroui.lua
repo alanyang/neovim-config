@@ -12,7 +12,7 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "modus",
+    colorscheme = "night-owl",
     backgroup = "dark",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
