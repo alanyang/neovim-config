@@ -1,23 +1,54 @@
 return {
   { "NTBBloodbath/doom-one.nvim" },
-  { "olimorris/onedarkpro.nvim" },
+  {
+    "olimorris/onedarkpro.nvim",
+    init = function()
+      require("onedarkpro").setup {
+        options = {
+          transparency = true,
+        },
+        styles = {
+          types = "bold",
+          methods = "italic",
+          numbers = "NONE",
+          strings = "NONE",
+          comments = "italic",
+          keywords = "italic",
+          constants = "NONE",
+          functions = "italic",
+          operators = "NONE",
+          variables = "NONE",
+          parameters = "NONE",
+          conditionals = "italic",
+          virtual_text = "italic",
+        },
+      }
+    end,
+  },
   { "embark-theme/vim" },
   { "catppuccin/nvim", name = "catppuccin" },
-  { "folke/tokyonight.nvim", name = "tokyonight" },
+  {
+    "folke/tokyonight.nvim",
+    name = "tokyonight",
+  },
   { "projekt0n/github-nvim-theme", name = "github-theme" },
+  { "macguirerintoul/night_owl_light.vim" },
   {
     "oxfist/night-owl.nvim",
     lazy = false, -- make sure we load this during startup if it is your main colorscheme
-    priority = 1000, -- make sure to load this before all the other start plugins
     config = function()
       -- load the colorscheme here
-      require("night-owl").setup()
-      vim.cmd.colorscheme "night-owl"
+      require("night-owl").setup {
+        bold = true,
+        italics = true,
+        underline = true,
+        undercurl = true,
+        transparent_background = true,
+      }
     end,
   },
   {
     "miikanissi/modus-themes.nvim",
-    priority = 1000,
     init = function()
       -- Default options
       require("modus-themes").setup {

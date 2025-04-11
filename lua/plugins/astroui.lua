@@ -6,13 +6,10 @@
 ---@type LazySpec
 return {
   "AstroNvim/astroui",
-  require("notify").setup {
-    background_colour = "#282A36",
-  },
-  ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "night-owl",
+    -- colorscheme = "night-owl",
+    colorscheme = "onedark",
     backgroup = "dark",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {

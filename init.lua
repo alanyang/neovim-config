@@ -19,6 +19,10 @@ vim.opt.clipboard = "unnamedplus"
 
 require "lazy_setup"
 require "polish"
+require("astroui").setup {}
+require("notify").setup {
+  background_colour = "#000000",
+}
 
 vim.opt.wrap = true
 vim.opt.mouse = ""
